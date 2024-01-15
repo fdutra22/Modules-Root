@@ -1,0 +1,12 @@
+[submodule "Modules/Module-Left"]
+	path = Modules/Module-Left
+	url = https://github.com/fdutra22/Module-Left.git
+[submodule "Modules/Module-Right"]
+	path = Modules/Module-Right
+	url = https://github.com/fdutra22/Module-Right.git
+[submodule "Modules/Module-Up"]
+	path = Modules/Module-Up
+	url = https://github.com/fdutra22/Module-Up.git
+[submodule "Modules/Module-Down"]
+	path = Modules/Module-Down
+	url = https://github.com/fdutra22/Module-Down.git
