@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+  module-down:
+    image: ${DOCKER_REGISTRY-}moduledown
+    build:
+      context: Modules/Module-Down
+      dockerfile: Dockerfile
+
+  module-left:
+    image: ${DOCKER_REGISTRY-}moduleleft
+    build:
+      context: Modules/Module-Left
+      dockerfile: Dockerfile
+
+
+  module-right:
+    image: ${DOCKER_REGISTRY-}moduleright
+    build:
+      context: Modules/Module-Right
+      dockerfile: Dockerfile
+
+
+  module-up:
+    image: ${DOCKER_REGISTRY-}moduleup
+    build:
+      context: Modules/Module-Up
+      dockerfile: Dockerfile
+
